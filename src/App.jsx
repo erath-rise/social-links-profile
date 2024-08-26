@@ -10,7 +10,7 @@ function App() {
         <p className='address'>London, United Kingdom</p>
       </div>
       <p>&quot;Front-end developer and avid reader. &quot;</p>
-      <div className='links'>
+      <div className='flex flex-col gap-4'>
         <button>GitHub</button>
         <button>Frontend Mentor</button>
         <button>LinkedIn</button>
