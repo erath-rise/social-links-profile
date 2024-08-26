@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,13 +27,6 @@ body {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 40px;
-  border-radius: 8px;
   background: hsl(0, 0%, 10%);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -38,27 +35,24 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-bottom: 16px;
   background: #fff;
 }
 
 .info h1 {
   margin: 0;
   font-size: 24px;
-  font-weight: 600;
   color: #ffffff;
 }
 
 .info p {
   margin: 0;
-  font-weight: 600;
   color: hsl(75, 94%, 57%);
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: 1px solid transparent;
-  padding: 16px 120px;
+  padding: 1rem, 7.5rem;
   font-size: 14px;
   font-weight: 600;
   font-family: inherit;
@@ -79,6 +73,6 @@ button:focus-visible {
 .links {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
